@@ -63,7 +63,7 @@ public class ShortcutKey extends javax.swing.JFrame {
         jLabel4.setFont(new java.awt.Font("Ubuntu", 0, 9)); // NOI18N
         jLabel4.setText("04");
 
-        jTextField1.setFont(new java.awt.Font("Ubuntu", 0, 10)); // NOI18N
+        jTextField1.setFont(new java.awt.Font("Ubuntu", 0, 12)); // NOI18N
         jTextField1.setText("jTextField1");
         jTextField1.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -71,7 +71,7 @@ public class ShortcutKey extends javax.swing.JFrame {
             }
         });
 
-        jTextField2.setFont(new java.awt.Font("Ubuntu", 0, 10)); // NOI18N
+        jTextField2.setFont(new java.awt.Font("Ubuntu", 0, 12)); // NOI18N
         jTextField2.setText("jTextField1");
         jTextField2.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -79,7 +79,7 @@ public class ShortcutKey extends javax.swing.JFrame {
             }
         });
 
-        jTextField3.setFont(new java.awt.Font("Ubuntu", 0, 10)); // NOI18N
+        jTextField3.setFont(new java.awt.Font("Ubuntu", 0, 12)); // NOI18N
         jTextField3.setText("jTextField1");
         jTextField3.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -87,7 +87,7 @@ public class ShortcutKey extends javax.swing.JFrame {
             }
         });
 
-        jTextField4.setFont(new java.awt.Font("Ubuntu", 0, 10)); // NOI18N
+        jTextField4.setFont(new java.awt.Font("Ubuntu", 0, 12)); // NOI18N
         jTextField4.setText("jTextField1");
         jTextField4.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -126,7 +126,7 @@ public class ShortcutKey extends javax.swing.JFrame {
                 .addComponent(jLabel3)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jTextField3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel4)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jTextField4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
