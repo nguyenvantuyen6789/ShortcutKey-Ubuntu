@@ -8,7 +8,7 @@ public class ShortcutKey extends javax.swing.JFrame {
     
     private final String TEXT_01 = "{\"username\": \"adminlocal\", \"password\": \"123456aA@\"}";
     
-    private final String TEXT_02 = "HNXyhu@894352#";
+    private final String TEXT_02 = "tuyennv18";
     
     private final String TEXT_03 = "HNXyhu@894352#";
     
@@ -16,6 +16,8 @@ public class ShortcutKey extends javax.swing.JFrame {
 
     public ShortcutKey() {
         initComponents();
+        setAlwaysOnTop(true);
+        
         jTextArea1.setText(TEXT_01);
         jTextArea2.setText(TEXT_02);
         jTextArea3.setText(TEXT_03);
