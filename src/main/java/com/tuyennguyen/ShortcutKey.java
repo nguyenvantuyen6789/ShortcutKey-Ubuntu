@@ -17,6 +17,7 @@ public class ShortcutKey extends javax.swing.JFrame {
     public ShortcutKey() {
         initComponents();
         setAlwaysOnTop(true);
+        setLocation(1300, 100);
         
         jTextArea1.setText(TEXT_01);
         jTextArea2.setText(TEXT_02);
