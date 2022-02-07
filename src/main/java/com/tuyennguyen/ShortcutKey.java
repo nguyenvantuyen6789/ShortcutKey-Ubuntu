@@ -16,11 +16,11 @@ public class ShortcutKey extends javax.swing.JFrame {
     /**
      * text 03 String
      */
-    private final String TEXT_03 = "HNXyhu@894352#";
+    private final String TEXT_03 = "HNXyhu@894352#1";
     /**
      * text 04 String
      */
-    private final String TEXT_04 = "HNXyhu@894352#";
+    private final String TEXT_04 = "N8Wn5GENrtHjGXiTKYj7";
 
     public ShortcutKey() {
         initComponents();
