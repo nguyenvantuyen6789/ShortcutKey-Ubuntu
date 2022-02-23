@@ -26,6 +26,7 @@ public class ShortcutKey extends javax.swing.JFrame {
         initComponents();
         setAlwaysOnTop(true);
         setLocation(1900, 200);
+        setResizable(false);
         
         // set text
         jTextField1.setText(TEXT_01);
