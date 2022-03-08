@@ -2,6 +2,7 @@
 import java.awt.Toolkit;
 import java.awt.datatransfer.Clipboard;
 import java.awt.datatransfer.StringSelection;
+import javax.swing.JTextArea;
 
 public class ShortcutKey extends javax.swing.JFrame {
     /**
@@ -23,26 +24,26 @@ public class ShortcutKey extends javax.swing.JFrame {
     /**
      * text 05 String
      */
-    private final String TEXT_05 = "spring.datasource.url=jdbc:postgresql://localhost:5432/  " 	+
-				    "spring.datasource.username=postgres  " 				+
-				    "spring.datasource.password=postgres  " 				+
+    private final String TEXT_05 = "spring.datasource.url=jdbc:postgresql://localhost:5432/\n" 	+
+				    "spring.datasource.username=postgres\n" 				+
+				    "spring.datasource.password=postgres\n" 				+
 
-				    "spring.jpa.hibernate.ddl-auto=update  " 				+
-				    "spring.jpa.hibernate.show-sql=true  " 				+
+				    "spring.jpa.hibernate.ddl-auto=update\n" 				+
+				    "spring.jpa.hibernate.show-sql=true\n" 				+
 
-				    "spring.datasource.url=jdbc:mysql://localhost:3306/  " 		+
-				    "spring.datasource.username=root  " 				+
-				    "spring.datasource.password=  " 					+
+				    "spring.datasource.url=jdbc:mysql://localhost:3306/\n" 		+
+				    "spring.datasource.username=root\n" 				+
+				    "spring.datasource.password=\n" 					+
 
-				    "@RestController  " 						+
+				    "@RestController\n" 						+
 
-				    "@Autowired  "							+
-				    "private final StudentRepository studentRepository;  "		+
+				    "@Autowired\n"							+
+				    "private final StudentRepository studentRepository;\n"		+
 
-				    "@GetMapping  "							+
-				    "public List<StudentEntity> get() {  "				+
-				    "return studentRepository.findAll();  "				+
-				    "}  "								;
+				    "@GetMapping\n"							+
+				    "public List<StudentEntity> get() {\n"				+
+				    "return studentRepository.findAll();\n"				+
+				    "}\n"								;
 
 
     public ShortcutKey() {
@@ -75,7 +76,7 @@ public class ShortcutKey extends javax.swing.JFrame {
         jTextField2 = new javax.swing.JTextField();
         jTextField3 = new javax.swing.JTextField();
         jTextField4 = new javax.swing.JTextField();
-        jTextField5 = new javax.swing.JTextField();
+        jTextField5 = new javax.swing.JTextArea();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -248,6 +249,6 @@ public class ShortcutKey extends javax.swing.JFrame {
     private javax.swing.JTextField jTextField2;
     private javax.swing.JTextField jTextField3;
     private javax.swing.JTextField jTextField4;
-    private javax.swing.JTextField jTextField5;
+    private javax.swing.JTextArea jTextField5;
 
 }
