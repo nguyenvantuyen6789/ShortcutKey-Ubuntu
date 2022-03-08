@@ -23,7 +23,27 @@ public class ShortcutKey extends javax.swing.JFrame {
     /**
      * text 05 String
      */
-    private final String TEXT_05 = "5555";
+    private final String TEXT_05 = "spring.datasource.url=jdbc:postgresql://localhost:5432/  " 	+
+				    "spring.datasource.username=postgres  " 				+
+				    "spring.datasource.password=postgres  " 				+
+
+				    "spring.jpa.hibernate.ddl-auto=update  " 				+
+				    "spring.jpa.hibernate.show-sql=true  " 				+
+
+				    "spring.datasource.url=jdbc:mysql://localhost:3306/  " 		+
+				    "spring.datasource.username=root  " 				+
+				    "spring.datasource.password=  " 					+
+
+				    "@RestController  " 						+
+
+				    "@Autowired  "							+
+				    "private final StudentRepository studentRepository;  "		+
+
+				    "@GetMapping  "							+
+				    "public List<StudentEntity> get() {  "				+
+				    "return studentRepository.findAll();  "				+
+				    "}  "								;
+
 
     public ShortcutKey() {
         initComponents();
