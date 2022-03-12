@@ -4,6 +4,8 @@ import java.awt.datatransfer.Clipboard;
 import java.awt.datatransfer.StringSelection;
 import javax.swing.JTextArea;
 
+// Run: javac ShortcutKey.java
+// Run: java ShortcutKey
 public class ShortcutKey extends javax.swing.JFrame {
     /**
      * text 01 String
@@ -26,19 +28,19 @@ public class ShortcutKey extends javax.swing.JFrame {
      */
     private final String TEXT_05 = "spring.datasource.url=jdbc:postgresql://localhost:5432/\n" 	+
 				    "spring.datasource.username=postgres\n" 				+
-				    "spring.datasource.password=postgres\n" 				+
+				    "spring.datasource.password=postgres\n\n" 			+
 
 				    "spring.jpa.hibernate.ddl-auto=update\n" 				+
-				    "spring.jpa.hibernate.show-sql=true\n" 				+
+				    "spring.jpa.hibernate.show-sql=true\n\n" 				+
 
 				    "spring.datasource.url=jdbc:mysql://localhost:3306/\n" 		+
 				    "spring.datasource.username=root\n" 				+
-				    "spring.datasource.password=\n" 					+
+				    "spring.datasource.password=\n\n" 				+
 
-				    "@RestController\n" 						+
+				    "@RestController\n\n" 						+
 
 				    "@Autowired\n"							+
-				    "private final StudentRepository studentRepository;\n"		+
+				    "private final StudentRepository studentRepository;\n\n"		+
 
 				    "@GetMapping\n"							+
 				    "public List<StudentEntity> get() {\n"				+
